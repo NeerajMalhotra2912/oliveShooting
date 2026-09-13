@@ -1,0 +1,709 @@
+/*=============================================
+            HERO CAROUSEL
+=============================================*/
+
+@media(max-width:991px){
+
+.carousel-item{
+
+height:500px;
+
+}
+
+.carousel-caption h2{
+
+font-size:40px;
+
+}
+
+.carousel-caption p{
+
+font-size:18px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.carousel-item{
+
+height:300px;
+
+}
+
+.carousel-caption h2{
+
+font-size:26px;
+
+}
+
+.carousel-caption p{
+
+font-size:14px;
+
+}
+
+.slider-btn{
+
+padding:10px 24px;
+
+font-size:14px;
+
+}
+
+}
+
+
+@media(max-width:991px){
+
+.academy-title{
+
+font-size:38px;
+
+margin-bottom:25px;
+
+}
+
+.header-right{
+
+align-items:center;
+
+}
+
+.social-icons{
+
+justify-content:center;
+
+}
+
+.contact-btn{
+
+margin-bottom:15px;
+
+}
+
+.navbar-nav{
+
+text-align:center;
+
+padding-top:15px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.academy-title{
+
+font-size:28px;
+
+letter-spacing:1px;
+
+}
+
+.hero-section{
+
+height:300px;
+
+}
+
+.hero-section h2{
+
+font-size:26px;
+
+}
+
+}
+
+
+/*=============================================
+            ABOUT SECTION
+=============================================*/
+
+@media(max-width:991px){
+
+.section-title{
+
+    font-size:34px;
+
+}
+
+.about-image{
+
+    margin-top:40px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.section-title{
+
+    font-size:28px;
+
+}
+
+.about-text{
+
+    font-size:15px;
+
+}
+
+.highlight-item{
+
+    margin-bottom:15px;
+
+}
+
+.read-more-btn{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+}
+
+/*=============================================
+        WHY CHOOSE US
+=============================================*/
+
+@media(max-width:991px){
+
+.feature-card{
+
+    padding:30px 25px;
+
+}
+
+.feature-card h4{
+
+    font-size:21px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.section-description{
+
+    font-size:15px;
+
+}
+
+.feature-icon{
+
+    width:70px;
+
+    height:70px;
+
+}
+
+.feature-icon i{
+
+    font-size:28px;
+
+}
+
+.feature-card h4{
+
+    font-size:20px;
+
+}
+
+.feature-card p{
+
+    font-size:15px;
+
+}
+
+}
+
+/*=============================================
+            PROGRAMMES
+=============================================*/
+
+@media(max-width:991px){
+
+.program-card{
+
+    height:420px;
+
+}
+
+.program-overlay h3{
+
+    font-size:24px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.program-card{
+
+    height:350px;
+
+}
+
+.program-overlay{
+
+    padding:20px;
+
+}
+
+.program-overlay h3{
+
+    font-size:22px;
+
+}
+
+.program-overlay p{
+
+    font-size:14px;
+
+}
+
+.program-btn{
+
+    padding:10px 22px;
+
+    font-size:14px;
+
+}
+
+}
+
+
+/*=============================================
+        FACILITIES
+=============================================*/
+
+@media(max-width:991px){
+
+.facility-row{
+
+    margin-bottom:50px;
+
+}
+
+.facility-content{
+
+    text-align:center;
+
+}
+
+.facility-content h3{
+
+    font-size:28px;
+
+}
+
+.facility-content ul li{
+
+    padding-left:0;
+
+}
+
+.facility-content ul li::before{
+
+    display:none;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.facility-content h3{
+
+    font-size:24px;
+
+}
+
+.facility-content p{
+
+    font-size:15px;
+
+}
+
+}
+
+/*=============================================
+            GALLERY
+=============================================*/
+
+@media(max-width:991px){
+
+.gallery-item img{
+    height:240px;
+}
+
+}
+
+@media(max-width:576px){
+
+.gallery-item img{
+    height:220px;
+}
+
+.gallery-btn{
+    width:100%;
+    text-align:center;
+}
+
+}
+
+
+/*=============================================
+        TRAINING JOURNEY
+=============================================*/
+
+@media(max-width:991px){
+
+.journey-card{
+
+    padding:25px 15px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.journey-icon{
+
+    width:65px;
+
+    height:65px;
+
+}
+
+.journey-icon i{
+
+    font-size:24px;
+
+}
+
+.journey-card h5{
+
+    font-size:18px;
+
+}
+
+.journey-card p{
+
+    font-size:14px;
+
+}
+
+}
+
+
+/*=============================================
+                FAQ
+=============================================*/
+
+@media(max-width:576px){
+
+.custom-accordion .accordion-button{
+
+    font-size:16px;
+
+    padding:16px;
+
+}
+
+.custom-accordion .accordion-body{
+
+    font-size:15px;
+
+}
+
+}
+
+
+/*=============================================
+            CONTACT
+=============================================*/
+
+@media(max-width:991px){
+
+.contact-info{
+
+    margin-bottom:20px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.contact-info,
+.contact-form{
+
+    padding:25px;
+
+}
+
+.contact-item{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.contact-icon{
+
+    margin:0 auto 15px;
+
+}
+
+.contact-btn{
+
+    width:100%;
+
+}
+
+}
+
+
+/*=====================================================
+            GOOGLE MAP
+=====================================================*/
+
+/* @media (max-width:991px){
+
+    .map-container iframe{
+
+        height:380px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .map-section{
+
+        padding:60px 0;
+
+    }
+
+    .map-container{
+
+        border-radius:15px;
+
+    }
+
+    .map-container iframe{
+
+        height:320px;
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .map-section{
+
+        padding:50px 0;
+
+    }
+
+    .map-container{
+
+        border-radius:12px;
+
+    }
+
+    .map-container iframe{
+
+        height:280px;
+
+    }
+
+} */
+
+
+
+/*=============================================
+            GOOGLE MAP
+=============================================*/
+
+@media (max-width:991px){
+
+    .map-container iframe{
+        height:400px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .map-container iframe{
+        height:320px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .map-container{
+        border-radius:15px;
+    }
+
+    .map-container iframe{
+        height:260px;
+    }
+
+}
+
+
+/*=====================================================
+                    FOOTER
+=====================================================*/
+
+@media (max-width:991px){
+
+    .footer{
+
+        text-align:center;
+
+    }
+
+    .footer-logo{
+
+        font-size:28px;
+
+    }
+
+    .footer h5{
+
+        margin-top:20px;
+
+    }
+
+    .footer-social{
+
+        justify-content:center;
+
+        display:flex;
+
+        flex-wrap:wrap;
+
+    }
+
+    .footer-contact{
+
+        text-align:center;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .footer{
+
+        padding-top:60px;
+
+    }
+
+    .footer-logo{
+
+        font-size:26px;
+
+    }
+
+    .footer p{
+
+        font-size:15px;
+
+    }
+
+    .footer ul li{
+
+        margin-bottom:10px;
+
+    }
+
+    .footer-social a{
+
+        width:40px;
+
+        height:40px;
+
+        margin:5px;
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .footer{
+
+        padding-top:50px;
+
+    }
+
+    .footer-logo{
+
+        font-size:24px;
+
+    }
+
+    .footer h5{
+
+        font-size:20px;
+
+        margin-bottom:15px;
+
+    }
+
+    .footer p,
+
+    .footer ul li a,
+
+    .footer-contact p{
+
+        font-size:14px;
+
+    }
+
+    .footer-social{
+
+        margin-top:20px;
+
+    }
+
+    .footer-social a{
+
+        width:38px;
+
+        height:38px;
+
+        font-size:15px;
+
+    }
+
+    .footer-bottom{
+
+        font-size:13px;
+
+        line-height:1.6;
+
+        padding-top:15px;
+
+    }
+
+}

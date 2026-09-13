@@ -1,0 +1,67 @@
+/*=============================================
+            GALLERY SECTION
+=============================================*/
+
+.gallery-section{
+    background:#ffffff;
+}
+
+.gallery-item{
+    position:relative;
+    overflow:hidden;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+.gallery-item img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.gallery-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(23,63,53,.75);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    opacity:0;
+    transition:.35s;
+}
+
+.gallery-overlay i{
+    color:#fff;
+    font-size:40px;
+    transform:scale(.7);
+    transition:.35s;
+}
+
+.gallery-item:hover img{
+    transform:scale(1.12);
+}
+
+.gallery-item:hover .gallery-overlay{
+    opacity:1;
+}
+
+.gallery-item:hover .gallery-overlay i{
+    transform:scale(1);
+}
+
+.gallery-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 36px;
+    background:#173F35;
+    color:#fff;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.gallery-btn:hover{
+    background:#B68D40;
+    color:#fff;
+}

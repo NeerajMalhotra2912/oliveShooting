@@ -1,0 +1,883 @@
+/*=============================================
+            ABOUT SECTION
+=============================================*/
+
+.about-section{
+
+    background:#ffffff;
+
+}
+
+.section-subtitle{
+
+    color:#B68D40;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+}
+
+.section-title{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#173F35;
+
+    margin:12px 0 25px;
+
+}
+
+.about-text{
+
+    font-size:17px;
+
+    color:#555;
+
+    line-height:1.9;
+
+    text-align:justify;
+
+    margin-bottom:18px;
+
+}
+
+/* Highlights */
+
+.highlight-item{
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:18px;
+
+}
+
+.highlight-item i{
+
+    width:45px;
+
+    height:45px;
+
+    background:#173F35;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-right:15px;
+
+    transition:.3s;
+
+}
+
+.highlight-item:hover i{
+
+    background:#B68D40;
+
+    transform:rotate(8deg);
+
+}
+
+.highlight-item span{
+
+    font-size:16px;
+
+    font-weight:500;
+
+    color:#333;
+
+}
+
+/* Button */
+
+.read-more-btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:14px 34px;
+
+    background:#173F35;
+
+    color:#fff;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.read-more-btn:hover{
+
+    background:#B68D40;
+
+    color:#fff;
+
+}
+
+/* Image */
+
+.about-image{
+
+    border-radius:20px;
+
+    width:100%;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+    transition:.4s;
+
+}
+
+.about-image:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+/* =========================================================
+ABOUT US PAGE
+OLIVE SHOOTING ACADEMY
+========================================================= */
+
+/* =========================================================
+ABOUT PAGE HERO
+========================================================= */
+
+.about-hero {
+min-height: 480px;
+display: flex;
+align-items: center;
+position: relative;
+
+
+background-image:
+    linear-gradient(
+        rgba(23, 63, 53, 0.78),
+        rgba(23, 63, 53, 0.78)
+    ),
+    url("../images/about-hero.jpg");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+
+.inner-hero-content {
+max-width: 850px;
+margin: 0 auto;
+color: #ffffff;
+}
+
+.hero-small-title {
+display: inline-block;
+color: #B68D40;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.inner-hero-content h1 {
+font-family: "Poppins", sans-serif;
+font-size: 52px;
+line-height: 1.2;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.inner-hero-content h1 span {
+color: #B68D40;
+}
+
+.inner-hero-content p {
+max-width: 700px;
+margin: 0 auto;
+color: #ffffff;
+font-size: 18px;
+line-height: 1.8;
+}
+
+/* =========================================================
+BREADCRUMB
+========================================================= */
+
+.breadcrumb-section {
+padding: 18px 0;
+background-color: #f7f7f7;
+border-bottom: 1px solid #eeeeee;
+}
+
+.breadcrumb {
+font-size: 14px;
+}
+
+.breadcrumb a {
+color: #173F35;
+text-decoration: none;
+font-weight: 500;
+}
+
+.breadcrumb-item.active {
+color: #B68D40;
+font-weight: 600;
+}
+
+/* =========================================================
+COMMON ABOUT PAGE SECTIONS
+========================================================= */
+
+.section-padding {
+padding: 90px 0;
+}
+
+/* =========================================================
+WHO WE ARE
+========================================================= */
+
+.about-intro-section {
+background-color: #ffffff;
+}
+
+.about-image-wrapper {
+position: relative;
+padding-right: 25px;
+padding-bottom: 25px;
+}
+
+/* .about-image-wrapper::after {
+content: "";
+position: absolute;
+right: 0;
+bottom: 0;
+width: 75%;
+height: 75%;
+background: #B68D40;
+z-index: 0;
+border-radius: 10px;
+} */
+
+.about-image-wrapper img {
+position: relative;
+z-index: 1;
+width: 100%;
+height: 550px;
+object-fit: cover;
+display: block;
+border-radius: 10px;
+}
+
+.about-image-badge {
+position: absolute;
+z-index: 2;
+left: 0;
+bottom: 0;
+width: 190px;
+padding: 22px;
+background: #173F35;
+color: #ffffff;
+border-radius: 0 10px 0 10px;
+}
+
+.about-image-badge strong {
+display: block;
+color: #B68D40;
+font-family: "Poppins", sans-serif;
+font-size: 28px;
+font-weight: 700;
+margin-bottom: 5px;
+}
+
+.about-image-badge span {
+display: block;
+color: #ffffff;
+font-size: 12px;
+line-height: 1.6;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+.about-intro-section p {
+font-size: 16px;
+color: #555555;
+line-height: 1.9;
+margin-bottom: 18px;
+}
+
+/* =========================================================
+DIRECTOR MESSAGE
+========================================================= */
+
+.director-message-section {
+background-color: #f7f7f7;
+}
+
+.director-image-card {
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+}
+
+.director-image-card img {
+width: 100%;
+height: 520px;
+object-fit: cover;
+display: block;
+}
+
+.director-info {
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+padding: 25px;
+color: #ffffff;
+
+
+background: linear-gradient(
+    to top,
+    rgba(23, 63, 53, 0.95),
+    rgba(23, 63, 53, 0)
+);
+
+
+}
+
+.director-info h4 {
+color: #ffffff;
+font-family: "Poppins", sans-serif;
+font-size: 22px;
+margin-bottom: 5px;
+}
+
+.director-info p {
+color: #B68D40;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 600;
+}
+
+.director-message-content {
+font-size: 16px;
+color: #555555;
+line-height: 1.9;
+}
+
+.director-message-content p {
+margin-bottom: 18px;
+}
+
+.director-message-content strong {
+color: #173F35;
+}
+
+.director-signature {
+color: #173F35;
+font-weight: 600;
+font-style: italic;
+margin-top: 25px;
+}
+
+/* =========================================================
+MISSION & MOTTO
+========================================================= */
+
+.mission-motto-section {
+background-color: #ffffff;
+}
+
+.mission-card,
+.motto-card {
+padding: 45px;
+background: #173F35;
+color: #ffffff;
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+
+
+transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+
+}
+
+.mission-card:hover,
+.motto-card:hover {
+transform: translateY(-8px);
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.mission-icon {
+width: 65px;
+height: 65px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 25px;
+background: #B68D40;
+color: #ffffff;
+border-radius: 50%;
+font-size: 26px;
+}
+
+.mission-card .section-subtitle,
+.motto-card .section-subtitle {
+color: #B68D40;
+}
+
+.mission-card h3,
+.motto-card h3 {
+font-family: "Poppins", sans-serif;
+color: #ffffff;
+font-size: 26px;
+line-height: 1.4;
+font-weight: 700;
+margin: 15px 0;
+}
+
+.mission-card p,
+.motto-card p {
+color: #ffffff;
+font-size: 16px;
+line-height: 1.8;
+margin-bottom: 0;
+}
+
+/* =========================================================
+WHY CHOOSE US
+========================================================= */
+
+.why-choose-section {
+background-color: #f7f7f7;
+}
+
+.feature-card {
+padding: 35px 30px;
+background-color: #ffffff;
+border: 1px solid #eeeeee;
+border-radius: 10px;
+
+
+transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+
+}
+
+.feature-card:hover {
+transform: translateY(-8px);
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.10);
+}
+
+.feature-icon {
+width: 65px;
+height: 65px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 25px;
+background: #173F35;
+color: #ffffff;
+border-radius: 50%;
+font-size: 25px;
+transition: 0.3s;
+}
+
+.feature-card:hover .feature-icon {
+background: #B68D40;
+}
+
+.feature-card h4 {
+font-family: "Poppins", sans-serif;
+color: #173F35;
+font-size: 20px;
+line-height: 1.4;
+font-weight: 600;
+margin-bottom: 15px;
+}
+
+.feature-card p {
+color: #555555;
+font-size: 15px;
+line-height: 1.8;
+margin-bottom: 0;
+}
+
+/* =========================================================
+OUR TEAM
+========================================================= */
+
+.team-section {
+background-color: #ffffff;
+}
+
+.team-card {
+overflow: hidden;
+background-color: #ffffff;
+border: 1px solid #eeeeee;
+border-radius: 10px;
+
+
+transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+
+}
+
+.team-card:hover {
+transform: translateY(-8px);
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.team-image {
+overflow: hidden;
+}
+
+.team-image img {
+width: 100%;
+height: 350px;
+object-fit: cover;
+display: block;
+transition: transform 0.5s ease;
+}
+
+.team-card:hover .team-image img {
+transform: scale(1.05);
+}
+
+.team-content {
+padding: 25px;
+}
+
+.team-content h4 {
+font-family: "Poppins", sans-serif;
+color: #173F35;
+font-size: 21px;
+font-weight: 600;
+margin-bottom: 5px;
+}
+
+.team-content span {
+display: block;
+color: #B68D40;
+font-size: 14px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+
+.team-content p {
+color: #555555;
+font-size: 15px;
+line-height: 1.7;
+margin-bottom: 0;
+}
+
+/* =========================================================
+DISTINGUISHED VISITORS
+========================================================= */
+
+.visitors-section {
+background-color: #f7f7f7;
+}
+
+.visitor-card {
+overflow: hidden;
+background-color: #ffffff;
+border: 1px solid #eeeeee;
+border-radius: 10px;
+
+
+transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+
+}
+
+.visitor-card:hover {
+transform: translateY(-8px);
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.visitor-card img {
+width: 100%;
+height: 350px;
+object-fit: cover;
+display: block;
+transition: transform 0.5s ease;
+}
+
+.visitor-card:hover img {
+transform: scale(1.05);
+}
+
+.visitor-content {
+padding: 25px;
+text-align: center;
+}
+
+.visitor-content h4 {
+font-family: "Poppins", sans-serif;
+color: #173F35;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 8px;
+}
+
+.visitor-content p {
+color: #B68D40;
+font-size: 14px;
+font-weight: 600;
+margin-bottom: 0;
+}
+
+/* =========================================================
+ABOUT PAGE CTA
+========================================================= */
+
+.about-cta-section {
+padding: 90px 0;
+position: relative;
+
+background-image:
+    linear-gradient(
+        rgba(23, 63, 53, 0.90),
+        rgba(23, 63, 53, 0.90)
+    ),
+    url("../images/about-hero.jpg");
+
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+
+.cta-content {
+max-width: 800px;
+margin: 0 auto;
+color: #ffffff;
+}
+
+.cta-content .section-subtitle {
+color: #B68D40;
+}
+
+.cta-content h2 {
+font-family: "Poppins", sans-serif;
+color: #ffffff;
+font-size: 42px;
+line-height: 1.3;
+font-weight: 700;
+margin: 15px 0 20px;
+}
+
+.cta-content h2 span {
+color: #B68D40;
+}
+
+.cta-content p {
+color: #ffffff;
+font-size: 17px;
+line-height: 1.8;
+margin-bottom: 30px;
+}
+
+.cta-buttons {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+flex-wrap: wrap;
+}
+
+.cta-buttons .btn {
+padding: 13px 28px;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+}
+
+/* =========================================================
+ABOUT PAGE RESPONSIVE
+========================================================= */
+
+@media (max-width: 991px) {
+
+.about-hero {
+    min-height: 420px;
+}
+
+.inner-hero-content h1 {
+    font-size: 42px;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.about-image-wrapper img {
+    height: 500px;
+}
+
+.director-image-card img {
+    height: 500px;
+}
+
+.mission-card,
+.motto-card {
+    padding: 35px;
+}
+
+.cta-content h2 {
+    font-size: 36px;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.section-padding {
+    padding: 55px 0;
+}
+
+.about-hero {
+    min-height: 380px;
+}
+
+.inner-hero-content {
+    padding: 0 20px;
+}
+
+.inner-hero-content h1 {
+    font-size: 34px;
+}
+
+.inner-hero-content p {
+    font-size: 16px;
+}
+
+.hero-small-title {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.about-image-wrapper {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.about-image-wrapper img {
+    height: 400px;
+}
+
+.about-image-badge {
+    width: 160px;
+    padding: 18px;
+}
+
+.about-image-badge strong {
+    font-size: 24px;
+}
+
+.director-image-card img {
+    height: 420px;
+}
+
+.mission-card,
+.motto-card {
+    padding: 30px 25px;
+}
+
+.feature-card {
+    padding: 30px 25px;
+}
+
+.team-image img,
+.visitor-card img {
+    height: 320px;
+}
+
+.cta-content h2 {
+    font-size: 30px;
+}
+
+.cta-content p {
+    font-size: 15px;
+}
+
+.about-cta-section {
+    padding: 65px 20px;
+    background-attachment: scroll;
+}
+
+}
+
+@media (max-width: 575px) {
+
+.about-hero {
+    min-height: 350px;
+}
+
+.inner-hero-content h1 {
+    font-size: 28px;
+}
+
+.inner-hero-content p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.about-image-wrapper img {
+    height: 350px;
+}
+
+.director-image-card img {
+    height: 380px;
+}
+
+.director-message-content {
+    font-size: 15px;
+}
+
+.team-image img,
+.visitor-card img {
+    height: 300px;
+}
+
+.cta-buttons {
+    flex-direction: column;
+    width: 100%;
+}
+
+.cta-buttons .btn {
+    width: 100%;
+    max-width: 300px;
+}
+
+}

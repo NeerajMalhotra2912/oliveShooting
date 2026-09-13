@@ -1,0 +1,95 @@
+/*=============================================
+            TRAINING JOURNEY
+=============================================*/
+
+.training-section{
+
+    background:#f8f9fa;
+
+}
+
+.journey-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:30px 20px;
+
+    text-align:center;
+
+    height:100%;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    position:relative;
+
+}
+
+.journey-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+.journey-icon{
+
+    width:80px;
+
+    height:80px;
+
+    background:#173F35;
+
+    border-radius:50%;
+
+    margin:0 auto 20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:.35s;
+
+}
+
+.journey-card:hover .journey-icon{
+
+    background:#B68D40;
+
+    transform:rotate(360deg);
+
+}
+
+.journey-icon i{
+
+    font-size:30px;
+
+    color:#fff;
+
+}
+
+.journey-card h5{
+
+    color:#173F35;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.journey-card p{
+
+    color:#666;
+
+    font-size:15px;
+
+    line-height:1.7;
+
+}

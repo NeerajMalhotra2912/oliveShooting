@@ -1,0 +1,48 @@
+/*=============================================
+            GOOGLE MAP
+=============================================*/
+
+/* .map-section{
+    background:#ffffff;
+}
+
+.map-container{
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.10);
+}
+
+.map-container iframe{
+    width:100%;
+    height:450px;
+    border:0;
+}
+
+@media(max-width:768px){
+
+.map-container iframe{
+    height:350px;
+}
+
+} */
+
+
+
+/*=============================================
+            GOOGLE MAP
+=============================================*/
+
+.map-section{
+    background:#ffffff;
+}
+
+.map-container{
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.map-container iframe{
+    width:100%;
+    display:block;
+}
