@@ -1,148 +1,254 @@
-/*=============================================
+ /*=============================================
             HERO CAROUSEL
 =============================================*/
 
-.hero-slider{
+.hero-slider {
+    width: 100%;
+    overflow: hidden;
+}
 
-width:100%;
+.hero-slider .carousel-item {
+    height: 650px;
+    position: relative;
+
+    /* OSA background color */
+    background-color: #173F35;
+}
+
+
+/*=============================================
+            HERO IMAGE
+=============================================*/
+
+.hero-slider .carousel-item img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+    object-position: center center;
+
+    display: block;
+
+    /*
+       IMPORTANT:
+       Transparent/unused areas will show
+       the carousel-item background.
+    */
+}
+
+
+/*=============================================
+            DARK OVERLAY
+=============================================*/
+
+.hero-slider .carousel-item::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.35);
+
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+
+/*=============================================
+            CAPTION
+=============================================*/
+
+.hero-slider .carousel-caption {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    max-width: 1100px;
+
+    z-index: 2;
+
+    text-align: center;
+}
+
+.hero-slider .carousel-caption h2 {
+    font-size: 58px;
+
+    font-weight: 700;
+
+    line-height: 1.15;
+
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+}
+
+.hero-slider .carousel-caption p {
+    font-size: 22px;
+
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+}
+
+
+/*=============================================
+            SLIDER BUTTON
+=============================================*/
+
+.hero-slider .slider-btn {
+    display: inline-block;
+
+    padding: 14px 40px;
+
+    background: #b68d40;
+
+    color: #ffffff;
+
+    border-radius: 50px;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition: 0.4s ease;
+}
+
+.hero-slider .slider-btn:hover {
+    background: #173F35;
+    color: #ffffff;
+}
+
+
+/*=============================================
+            NAVIGATION
+=============================================*/
+
+.hero-slider .carousel-control-prev,
+.hero-slider .carousel-control-next {
+    width: 7%;
+    z-index: 3;
+}
+
+.hero-slider .carousel-control-prev-icon,
+.hero-slider .carousel-control-next-icon {
+    width: 55px;
+    height: 55px;
+
+    background-size: 60%;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    border-radius: 50%;
+
+    transition: 0.3s ease;
+}
+
+.hero-slider .carousel-control-prev-icon:hover,
+.hero-slider .carousel-control-next-icon:hover {
+    background-color: #b68d40;
+}
+
+
+/*=============================================
+            TABLET
+=============================================*/
+
+@media (max-width: 991.98px) {
+
+    .hero-slider .carousel-item {
+        height: 500px;
+    }
+
+    .hero-slider .carousel-caption h2 {
+        font-size: 42px;
+    }
+
+    .hero-slider .carousel-caption p {
+        font-size: 19px;
+    }
 
 }
 
-.carousel-item{
 
-height:650px;
+/*=============================================
+            MOBILE
+=============================================*/
 
-position:relative;
+@media (max-width: 767.98px) {
 
-}
+    .hero-slider .carousel-item {
+        height: 420px;
+    }
 
-.carousel-item img{
+    .hero-slider .carousel-caption {
+        width: 82%;
+    }
 
-width:100%;
+    .hero-slider .carousel-caption h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
 
-height:100%;
+    .hero-slider .carousel-caption p {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
 
-object-fit:cover;
+    .hero-slider .slider-btn {
+        padding: 11px 25px;
+        font-size: 14px;
+    }
 
-}   
+    .hero-slider .carousel-control-prev,
+    .hero-slider .carousel-control-next {
+        width: 12%;
+    }
 
-/* Dark Overlay */
-
-.carousel-item::before{
-
-content:"";
-
-position:absolute;
-
-top:0;
-
-left:0;
-
-width:100%;
-
-height:100%;
-
-background:rgba(0,0,0,.45);
-
-z-index:1;
-
-}
-
-/* Caption */
-
-.carousel-caption{
-
-position:absolute;
-
-top:50%;
-
-left:50%;
-
-transform:translate(-50%,-50%);
-
-z-index:2;
-
-width:90%;
+    .hero-slider .carousel-control-prev-icon,
+    .hero-slider .carousel-control-next-icon {
+        width: 42px;
+        height: 42px;
+    }
 
 }
 
-.carousel-caption h2{
 
-font-size:58px;
+/*=============================================
+            SMALL MOBILE
+=============================================*/
 
-font-weight:700;
+@media (max-width: 480px) {
 
-margin-bottom:20px;
+    .hero-slider .carousel-item {
+        height: 360px;
+    }
 
-text-transform:uppercase;
+    .hero-slider .carousel-caption {
+        width: 78%;
+    }
 
-}
+    .hero-slider .carousel-caption h2 {
+        font-size: 24px;
+    }
 
-.carousel-caption p{
+    .hero-slider .carousel-caption p {
+        font-size: 14px;
+    }
 
-font-size:22px;
-
-margin-bottom:30px;
-
-}
-
-.slider-btn{
-
-display:inline-block;
-
-padding:14px 40px;
-
-background:#b68d40;
-
-color:#fff;
-
-border-radius:50px;
-
-font-weight:600;
-
-transition:.4s;
-
-}
-
-.slider-btn:hover{
-
-background:#173F35;
-
-color:#fff;
-
-}
-
-/* Navigation */
-
-.carousel-control-prev,
-.carousel-control-next{
-
-width:7%;
-
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon{
-
-background-size:70%;
-
-width:60px;
-
-height:60px;
-
-background-color:rgba(0,0,0,.45);
-
-border-radius:50%;
-
-padding:25px;
-
-transition:.3s;
-
-}
-
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover{
-
-background:#b68d40;
+    .hero-slider .slider-btn {
+        padding: 9px 20px;
+        font-size: 13px;
+    }
 
 }
